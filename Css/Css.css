@@ -1,0 +1,55 @@
+body{
+    
+    background-color: #00002d;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap row;
+    align-content: center;
+    height: 100vh;
+    gap: 10px;
+    color: aliceblue;
+}
+
+.form1{
+    background-color: #000074dd;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-flow: wrap row;
+    gap: 6px;
+    width: 80%;
+}
+input{
+    background-color: #00006c;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    flex-grow: 1;
+    border: #ffffff solid 1px;
+    transition: 0.5s;
+    padding: 5px;
+    /* flex-basis: 200px; */
+    
+}
+.But{
+background-color: #ffffff;
+color: #0004ff;
+border: #00006c;
+box-shadow: 0px 5px 30px blue;
+transition: 0.5s;
+border-radius: 15px;
+width: 80px;
+}
+.But:hover{
+    width: 100px;
+    
+    box-shadow: 0px 0px 10px #fcfcfc,0px 0px 20px #fcfcfc,0px 5px 30px #fcfcfc;
+}
+.em1:valid{
+    color: greenyellow;
+}
+input:hover{
+    background-color: #000030;
+}
